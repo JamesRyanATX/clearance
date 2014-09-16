@@ -1,3 +1,4 @@
+=begin
 Rails.application.routes.draw do
   resources :passwords,
     controller: 'clearance/passwords',
@@ -22,3 +23,4 @@ Rails.application.routes.draw do
     get '/sign_up' => 'clearance/users#new', as: 'sign_up'
   end
 end
+=end
